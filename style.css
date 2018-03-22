@@ -31,6 +31,7 @@ form {
 }
 
 input {
+  border-radius: 18px;
   color: #BBBDBF;
   display: block;
   font-size: 16px;
@@ -39,6 +40,7 @@ input {
   padding: 5px;
   width: 50%;
 }
+
 
 input::placeholder {
   color: #BBBDBF;
@@ -50,11 +52,11 @@ button {
   border: 0;
   border-radius: 18px;
   color: #FFFFFF;
+  text-align: center;
   font-size: 16px;
   font-weight: 300;
   height: 10%;
   padding: 10px 0px 10px 0px;
-  text-align: center;
   width: 25%;
 }
 
@@ -87,14 +89,24 @@ h3 {
   text-align: center;
 }
 
+
 .newRangeInstructions {
-  color: #ED458B;
+   color: #ED458B;
 }
 
 .resetButton {
   display: block;
   margin: 50px auto 0px auto;
   width: 50%;
+}
+
+.playersTurn {
+  margin: 25px auto 25px auto;
+}
+
+.addPlayer {
+  margin-bottom: 50px;
+  width: 25%;
 }
 
 .userScore {
@@ -122,15 +134,15 @@ h3 {
 .userRange {
   background-color: #404041;
   position: relative;
-  bottom: 0px;
+    bottom: 0px;
   width: 100%;
 }
 
 .newRangeButton {
   background-color: #FFFFFF;
   color: #929497;
-  width: 15%;
   margin: 10px 0px 10px 10px;
+  width: 15%;
 }
 
 .newRangeButton:hover {

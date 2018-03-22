@@ -17,6 +17,7 @@
       <button class="clearButton" id ="clear-button" disabled="true">Clear</button>
     </form>
         <section class="instructions">
+          <p>You've guessed <span class="number-of-guesses">0</span> times</p>
           <p class="feedback" id ="user-instruction">Enter a Guess from <span id="stated-min">1</span>-<span id="stated-max">100</span></p>
           <p class="lastUserGuess" id ="last-user-guess">&zwnj;<p>
           <p class="feedback" id ="user-feedback">Come on, you know you want to.</p>
@@ -24,6 +25,8 @@
         </section>
       <form>
         <button class="resetButton" id ="reset-button" disabled="true">Reset</button>
+        <p class="playersTurn" id ="players-turn"></p>
+        <button class="addPlayer" id="add-player">Add Player?</button>
       </form>
     <h1 class="userScore" id="user-score"></h1>
     <section class="userRange">
