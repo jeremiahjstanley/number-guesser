@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <title>Number Guesser</title>
+</head>
+<body>
+  <header>
+    <h1 class="header" id="number">Number</h1>
+    <h1 class="header">Guesser</h1>
+  </header>
+  <main>
+    <form>
+      <input type="text" name="Enter your Guess" placeholder="Enter your guess"
+       class ="userInput" id ="user-input" aria-label="Enter your Guess">
+      <button class="guessButton" id ="guess-button" disabled="true">Guess</button>
+      <button class="clearButton" id ="clear-button" disabled="true">Clear</button>
+    </form>
+        <section class="instructions">
+          <p class="feedback" id ="user-instruction">Enter a Guess from <span id="stated-min">1</span>-<span id="stated-max">100</span></p>
+          <p class="lastUserGuess" id ="last-user-guess">&zwnj;<p>
+          <p class="feedback" id ="user-feedback">Come on, you know you want to.</p>
+          <h3 class="newRangeInstructions" id="new-range-instructions"></h3>
+        </section>
+      <form>
+        <button class="resetButton" id ="reset-button" disabled="true">Reset</button>
+      </form>
+    <h1 class="userScore" id="user-score"></h1>
+    <section class="userRange">
+      <h3>Feeling Daring? Enter your own Range!</h3>
+      <form>
+        <input type="number" name="Enter New Minimum" class="newRange" 
+        id="user-minimum" placeholder="Enter New Minimum" aria-label="Enter New Minimum"> 
+        <input type="number" name="Enter New Maximum" class="newRange" 
+        id="user-maximum" placeholder="Enter New Maximum" aria-label="Enter New Maximum">
+        <button class="newRangeButton" id="new-range-button">Submit New Range</button>
+      </form>
+    </section>
+  <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html

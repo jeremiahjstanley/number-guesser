@@ -1,0 +1,154 @@
+
+html {
+  font-family: Open Sans, Sans-Serif;
+}
+
+body {
+  margin: -2px;
+}
+
+header {
+  background-color: #404041;
+  color: #E6E7E8;
+  font-size: 24px;
+  margin: -2px;
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  font-weight: 300;
+}
+
+#number {
+  color: #ED458B;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  color: #BBBDBF;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 50px auto 50px auto;
+  padding: 5px;
+  width: 50%;
+}
+
+input::placeholder {
+  color: #BBBDBF;
+  text-align: center;
+}
+
+button {
+  background-color: #929497;
+  border: 0;
+  border-radius: 18px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  height: 10%;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  width: 25%;
+}
+
+button:hover {
+  background-color: #EB008B;  
+}
+
+button:disabled {
+  background-color: #D0D2D3;  
+}
+
+.guessButton {
+  margin-right: 5px
+}
+
+.clearButton {
+  margin-left: 5px;
+}
+
+.instructions {
+  text-align: center;
+}
+
+h3 {
+  color: #E6E7E8;
+  font-size: 24px;
+  font-weight: 500;
+  margin: -2px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.newRangeInstructions {
+  color: #ED458B;
+}
+
+.resetButton {
+  display: block;
+  margin: 50px auto 0px auto;
+  width: 50%;
+}
+
+.userScore {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.newRange {
+  border: 0; 
+  display: inline-block;
+  height: 30px;
+  width: 16%;
+}
+
+#user-minimum {
+  margin-left: 15px;
+}
+
+#user-maximum {
+  margin-left: 15px;
+}
+
+.userRange {
+  background-color: #404041;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+.newRangeButton {
+  background-color: #FFFFFF;
+  color: #929497;
+  width: 15%;
+  margin: 10px 0px 10px 10px;
+}
+
+.newRangeButton:hover {
+  color: #FFFFFF;
+}
+
+section {
+  margin: 50px 0px 0px 0px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.lastUserGuess {
+  color: #EB008B;
+  font-size: 100px;
+  font-weight: 300;
+}
